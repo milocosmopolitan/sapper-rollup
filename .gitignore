@@ -7,6 +7,9 @@
 node_modules
 /src/node_modules/@sapper/
 
+# Dependencies lock files
+package-lock.json
+
 # IDEs and editors
 /.idea
 .project
@@ -31,4 +34,3 @@ yarn-error.log
 
 # Testing output
 /cypress/screenshots/
-
