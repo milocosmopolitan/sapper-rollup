@@ -17,7 +17,8 @@
 	export let post;
 </script>
 
-<style>
+<style lang="scss">
+@import "../../styles/theme.scss";
 	/*
 		By default, CSS is locally scoped to the component,
 		and any unused styles are dead-code-eliminated.
@@ -27,7 +28,7 @@
 		all elements inside .content
 	*/
 	.content :global(h2) {
-		font-size: 1.4em;
+		font-size: $heading1;
 		font-weight: 500;
 	}
 
