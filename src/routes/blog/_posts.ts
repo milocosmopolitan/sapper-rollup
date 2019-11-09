@@ -6,8 +6,13 @@
 // This file is called `_posts.js` rather than `posts.js`, because
 // we don't want to create an `/blog/posts` route — the leading
 // underscore tells Sapper not to do that.
+interface IPost {
+	title: string;
+	slug: string;
+	html: string;
+}
 
-const posts = [
+const posts: IPost[] = [
 	{
 		title: 'What is Sapper?',
 		slug: 'what-is-sapper',
@@ -85,7 +90,7 @@ const posts = [
 	}
 ];
 
-posts.forEach(post => {
+posts.forEach((post: IPost) => {
 	post.html = post.html.replace(/^\t{3}/gm, '');
 });
 
