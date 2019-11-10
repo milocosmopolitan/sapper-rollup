@@ -95,3 +95,4 @@ posts.forEach((post: IPost) => {
 });
 
 export default posts;
+
