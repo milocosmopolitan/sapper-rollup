@@ -17,6 +17,7 @@
 	export let post;
 </script>
 
+
 <style lang="scss">
 @import "../../styles/theme.scss";
 	/*
